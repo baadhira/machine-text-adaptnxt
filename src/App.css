@@ -1,0 +1,48 @@
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+.container{
+  display:flex;
+
+}
+
+main{
+  width:100%;
+  padding:20px;
+}
+.sidebar{
+  background-color:white;
+  color:black;
+  height:100vh;
+  margin-left: -115px;
+  /* margin-left:-11%; */
+  width: 300px;
+}
+.link{
+  display: flex;
+  color: black;
+  padding:10px 15px;
+  gap: 15px;
+  transition:all 0.5s;
+
+}
+.link:hover{
+  background-color:lightskyblue;
+  color:dodgerblue;
+  transition:all 0.5s;
+}
+
+.active {
+  background-color:lightskyblue;
+  color:dodgerblue;
+}
+.icon, .link_text {
+  font-size: 15px;
+}
+body{
+  background-color:rgb(243, 237, 237);
+}
